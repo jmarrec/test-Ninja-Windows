@@ -7,10 +7,13 @@
 // #include <src/folder/afile.hpp>
 
 // Doesn't work, over MAX_PATH
-// #include <src/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/afile.hpp>
+#include <src/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/afile.hpp>
 
-
-#include "\\?\C:\Users\julien\Software\test-Ninja-Windows\build\src\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\afile.hpp"
+// Doesn't work
+//#include "\\?\C:\Users\julien\Software\test-Ninja-Windows\build\src\folder\afile.hpp"
+//#include "\\?\C:\\Users\\julien\\Software\\test-Ninja-Windows\\build\\src\\folder\\afile.hpp"
+//#include "\\?\C:/Users/julien/Software/test-Ninja-Windows/build/src/folder/afile.hpp"
+// #include "\\?\C:\Users\julien\Software\test-Ninja-Windows\build\src\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\folder\afile.hpp"
 
 int main(int argc, char * argv[]) {
 

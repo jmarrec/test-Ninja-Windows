@@ -2,8 +2,12 @@
 #include <sstream>
 
 // #include "afile.hpp"
-#include <src/folder/afile.hpp>
-// #include <src/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/afile.hpp>
+
+// Works fine
+// #include <src/folder/afile.hpp>
+
+// Doesn't work, over MAX_PATH
+#include <src/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/folder/afile.hpp>
 
 int main(int argc, char * argv[]) {
 
